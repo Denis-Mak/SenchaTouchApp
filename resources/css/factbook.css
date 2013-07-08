@@ -1,0 +1,54 @@
+.header {
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#selectionPage .header{
+    background-color: #c3d9ff;
+    color: #006bb6;
+}
+#selectionPage .title{
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    margin: 4px;
+}
+#selectionPage .snippet{
+    font-weight: normal;
+    font-size: 0.75em;
+    margin: 2px;
+}
+/* Hide empty list item body*/
+#selectionPage .x-list-item-body{
+    background-color: red;
+    height: 1px;
+    width: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+.x-droppable {
+    border: #003d99 solid;
+    background-color: #002f50;
+    opacity: 0.5;
+}
+
+.x-drop-active {
+    opacity: 1;
+}
+
+.x-drop-invalid {
+    background-color: red;
+}
+
+.x-drop-hover {
+    border-color: #ae0404;
+}
+
+.x-droppable.keep-panel{
+    border-top-left-radius: 10px;
+}
+
+.x-droppable.delete-panel{
+    border-top-right-radius: 10px;
+}
